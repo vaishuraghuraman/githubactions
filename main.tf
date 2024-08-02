@@ -28,6 +28,7 @@ resource "google_compute_instance" "myvm" {
 
   network_interface {
     network = google_compute_network.vpc_network.name
+    subnetwork = google_compute_subnetwork.mysubnet.name
 
     access_config {
       // Ephemeral public IP
