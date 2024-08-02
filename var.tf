@@ -18,7 +18,7 @@ variable "zone" {
 //vm name:
 
 variable "vmname" {
-    default = "vaishuvm"
+    default = "vaishuvm1"
 }
 
 //machine_type:
@@ -37,13 +37,13 @@ variable "vmimage" {
 //VPC NAME:
 
 variable "vpcname" {
-     default = "vaishuvpc"
+     default = "vaishuvpc1"
 }
 
 // SUBNET:
 
 variable "subnetname" {
-  default = "vaishusubnet"
+  default = "vaishusubnet1"
 }
 
 //ip_cidr_range:
@@ -56,6 +56,6 @@ variable "ip_cidr_range" {
 // firewall:
 
 variable "firewallname" {
-    default = "vaishufirewall"
+    default = "vaishufirewall1"
 }
 
