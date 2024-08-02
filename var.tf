@@ -49,6 +49,7 @@ variable "subnetname" {
 //ip_cidr_range:
 
 variable "ip_cidr_range" {
+    default = "192.168.10.0/24"
 
 }
 
